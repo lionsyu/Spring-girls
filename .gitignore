@@ -22,3 +22,7 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+
+### apple ###
+.DS_Store
+src/.DS_Store
