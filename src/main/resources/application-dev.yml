@@ -1,0 +1,10 @@
+server:
+  port: 8082
+  #context-path: /test
+#name: abc
+#age: 18
+#content: "name: ${name},age: ${age}"
+human:
+  name: dev
+  age: 18
+
