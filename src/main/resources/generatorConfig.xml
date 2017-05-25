@@ -21,7 +21,7 @@
         </commentGenerator>
 
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://127.0.0.1:3306/test"
+                        connectionURL="jdbc:mysql://127.0.0.1:3306/girl"
                         userId="root"
                         password="root123">
         </jdbcConnection>
@@ -46,8 +46,10 @@
         </javaClientGenerator>
 
 
-        <table schema="test" tableName="test" domainObjectName="Test" enableSelectByExample="false" enableDeleteByPrimaryKey="false"
-               enableDeleteByExample="false" enableCountByExample="false" enableUpdateByExample="false">
+        <table schema="girl" tableName="user" domainObjectName="User"
+               enableSelectByExample="false" enableDeleteByPrimaryKey="false"
+               enableDeleteByExample="false" enableCountByExample="false"
+               enableUpdateByExample="false">
             <property name="constructorBased" value="false" />
             <property name="useActualColumnNames" value="true" />
             <property name="ignoreQualifiersAtRuntime" value="true" />
