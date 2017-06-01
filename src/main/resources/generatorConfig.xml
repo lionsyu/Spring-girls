@@ -46,7 +46,7 @@
         </javaClientGenerator>
 
 
-        <table schema="girl" tableName="user" domainObjectName="User"
+        <table schema="girl" tableName="cherry" domainObjectName="Cherry"
                enableSelectByExample="false" enableDeleteByPrimaryKey="false"
                enableDeleteByExample="false" enableCountByExample="false"
                enableUpdateByExample="false">
