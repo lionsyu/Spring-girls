@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.Date;
+import java.util.List;
 
 /**
  * Created by yuxin on 2017/5/24.
@@ -34,6 +35,11 @@ public class UserServiceImpl implements UserService {
     @Override
     public User getByTel(String tel) {
         return userDao.getByTel(tel);
+    }
+
+    @Override
+    public User getById(Long id){
+        return userDao.getById(id);
     }
 
 

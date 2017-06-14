@@ -13,4 +13,6 @@ public interface UserService {
 
     User getByTel(String tel);
 
+    User getById(Long id);
+
 }

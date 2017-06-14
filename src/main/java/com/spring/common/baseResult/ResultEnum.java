@@ -10,7 +10,9 @@ public enum ResultEnum {
     TEL_ERROR(-1002, "手机号不符合规范", "请输入正确的手机号"),
     USER_NOT_EXIST(-1003, "用户不存在", "用户不存在"),
     PASSWORD_ERROR(-1004, "密码错误", "密码错误"),
-    NO_ACCESS(-1005, "无权操作", "无权操作");
+    NO_ACCESS(-1005, "无权操作", "无权操作"),
+    HAVE_REGISTER(-1006,"该用户已注册","该用户已注册，跳转到登录界面"),
+    NOT_REGISTER(-1007,"该用户尚未注册","该用户尚未注册，跳转到注册界面");
 
 
     private int code;
