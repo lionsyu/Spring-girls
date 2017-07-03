@@ -1,4 +1,4 @@
-package com.spring.common.baseResult;
+package com.spring.common.core;
 
 import com.alibaba.fastjson.JSONObject;
 

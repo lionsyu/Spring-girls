@@ -1,4 +1,4 @@
-package com.spring.common.baseResult;
+package com.spring.common.core;
 
 /**
  * Created by yuxin on 2017/6/7.

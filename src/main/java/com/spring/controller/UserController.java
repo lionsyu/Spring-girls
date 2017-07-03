@@ -1,8 +1,8 @@
 package com.spring.controller;
 
 import com.alibaba.fastjson.JSONObject;
-import com.spring.common.baseResult.JsonFactory;
-import com.spring.common.baseResult.ResultEnum;
+import com.spring.common.core.JsonFactory;
+import com.spring.common.core.ResultEnum;
 import com.spring.common.util.TelUtils;
 import com.spring.entity.User;
 import com.spring.service.UserService;

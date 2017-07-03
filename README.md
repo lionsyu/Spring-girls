@@ -8,4 +8,4 @@ V1.0 20150525
 基本框架搭建，通过mybatis-generator自动生成entity，
 简单接口保证服务可正常启动
 
-todo:用spring security权限控制，用RSA(暂定)对密码进行加密
+V1.1 20170703 对框架做一些调整（未完）
